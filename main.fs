@@ -1,15 +1,17 @@
-module Assignment
+=module Assignment
 
 // Problem 1
 let rec prod (lst:int list) =
-    // write your solution here
-    0
+    if List.isEmpty lst
+    then 0
+    else List.head lst + prod (List.tail lst)
+    
 
 // Problem 2
 let rec map f (lst:int list) =
-    // write your solution here
-    []
-
+    match lst with
+    [] -> []
+    |
 // Problem 3
 let rec odd (lst:int list) =
     // write your solution here
