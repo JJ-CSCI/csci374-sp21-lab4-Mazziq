@@ -9,16 +9,16 @@ let rec prod (lst:int list) =
 
 // Problem 2
 let rec map f (lst:int list) =
-    match lst with
     [] -> []
     |
 // Problem 3
 let rec odd (lst:int list) =
-    if List.isEmpty odd % 2
-    lst
+    x::xs -> []
+     odd %2 
+    
 
 // Problem 4
 let rec filter f lst =
-    filter :: (a->Bool) -> [a] -> [a]
+    filter :: (f->Bool) -> [f] -> [f]
 
-    lst
+    
