@@ -14,10 +14,11 @@ let rec map f (lst:int list) =
     |
 // Problem 3
 let rec odd (lst:int list) =
-    // write your solution here
+    if List.isEmpty odd % 2
     lst
 
 // Problem 4
 let rec filter f lst =
-    // write your solution here
+    filter :: (a->Bool) -> [a] -> [a]
+
     lst
